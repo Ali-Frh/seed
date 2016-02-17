@@ -29,9 +29,9 @@ local function run(msg, matches)
 end
 
 return {
-  description = "9GAG for Telegram",
-  usage = "!9gag: Send random image from 9gag",
-  patterns = {"^!9gag$"},
+  description = "عکس تصادفی",
+  usage = "بنویسید "عکس" تا عکس تصادفی براتون بفرستم"
+  patterns = {"^عکس$"},
   run = run
 }
 
