@@ -212,6 +212,7 @@ function create_config( )
     "plugins",
     "plugmanager",
     "onservice",
+    "pl",
     "inrealm",
     "ingroup",
     "inpm",
