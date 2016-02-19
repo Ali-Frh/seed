@@ -18,19 +18,8 @@ return {
 description = "Shows bot about text", 
 usage = " TeleSick : Show Creators",
 patterns = {
-"^telesick$"
-"^TeleSick$"
-"^Telesick$"
-"^!telesick$"
-"^!TeleSick$"
-"^!Telesick$"
-"^/telesick$"
-"^/TeleSick$"
-"^/Telesick$"
-"^تله سیک$"
-"^تله ثیک$"
-"^تله صیک$"
-"^طله سیک$"
+"^[!/][tT]elesick$"
+"^[tT]eleSick$"
 }, 
 run = run 
 }
