@@ -1,10 +1,8 @@
-# [TeleSeed](https://telegram.me/TeleSeed) 
+# [TeleSick](https://telegram.me/shopbuy) 
 
-[![Join the chat at https://gitter.im/SEEDTEAM/TeleSeed](https://badges.gitter.im/SEEDTEAM/TeleSeed.svg)](https://gitter.im/SEEDTEAM/TeleSeed?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
-
-**An advance and powerful Administration bot based on [yagop/telegram-bot](https://github.com/yagop/telegram-bot) licensed under [GNU General public License](https://github.com/SEEDTEAM/TeleSeed/blob/master/LICENSE)**
+**An advance and powerful Administration bot licensed under [GNU General public License](https://github.com/siktirmirza/seed)**
 # Features
-
+* ** Mame And Koon System :D
 * **A powerful Anti spam with custom sensitivity For each group**
 * **Multiple Realms(admin groups)**
 * **recalcitrant to any kind of spamming(Xy bots,name|photo changers and ...)**
@@ -20,70 +18,6 @@
 * **Arabic lock**
 * **And ...**
 
-**Table of Contents** 
-- [TeleSeed](#teleseed)
-- [Features](#features)
-- [Commands](#commands)
-	- [Admins commands](#admins-commands)
-		- [Realm creation](#realm-creation)
-		- [Group creation](#group-creation)
-		- [Add or remove realms](#add-or-remove-realms)
-		- [Add or remove groups](#add-or-remove-groups)
-		- [Leaving](#leaving)
-		- [Everything about groups](#everything-about-groups)
-		- [Setting description in realm](#setting-description-in-realm)
-		- [Setting group name in realm](#setting-group-name-in-realm)
-		- [Setting rules in realm](#setting-rules-in-realm)
-		- [lock groups name|flood|photo|member in realm](#lock-groups-namefloodphotomember-in-realm)
-		- [Unlock groups name|flood|photo|member](#unlock-groups-namefloodphotomember)
-	- [Group setting in realm](#group-setting-in-realm)
-		- [Add admin](#add-admin)
-		- [Remove admin](#remove-admin)
-		- [Admins|group list in realm](#adminsgroup-list-in-realm)
-		- [Broadcast](#broadcast)
-		- [Realm help](#realm-help)
-	- [Global ban commands](#global-ban-commands)
-		- [Set group owner](#set-group-owner)
-		- [Bot stats](#bot-stats)
-	- [owners and mods commands](#owners-and-mods-commands)
-		- [Hammer](#hammer)
-		- [group name|member|arabic|flood|bots lock](#group-namememberarabicfloodbots-lock)
-		- [group name|member|arabic|flood|bots unlock](#group-namememberarabicfloodbots-unlock)
-		- [Group modlist|rules|about|member clean](#group-modlistrulesaboutmember-clean)
-		- [Set groups rules|about](#set-groups-rulesabout)
-		- [Setting or changing group owner](#setting-or-changing-group-photo)
-		- [Setting or changing group photo](#setting-or-changing-group-photo)
-		- [Changing group name](#changing-group-name)
-		- [Group link](#group-link)
-		- [Promote and demote mods](#promote-and-demote-mods)
-		- [Resolve username](#resolve-username)
-		- [Flood sensitivity](#flood-sensitivity)
-		- [Group rules and about](#group-rules-and-about)
-		- [Group settings](#group-settings)
-		- [modlist](#modlist)
-		- [Help](#help)
-		- [Owner](#owner)
-		- [Save and get](#save-and-get)
-		- [Id](#id)
-		- [Group stats](#group-stats)
-		- [Member list](#member-list)
-		- [Group help](#group-help)
-	- [In private commands](#in-private-commands)
-		- [Hammer](#hammer)
-		- [cleaning](#cleaning)
-		- [setting flood sensitivity](#setting-flood-sensitivity)
-		- [lock groups member|name](#lock-groups-membername)
-			- [unlock groups member|name](#unlock-groups-membername)
-		- [Group link](#group-link)
-		- [change name|rules|name](#change-namerulesname)
-		- [Group log](#group-log)
-		- [Join](#join)
-- [Installation](#installation)
-		- [One command](#one-command)
-		- [Realm configuration](#realm-configuration)
-- [Support and development](#support-and-development)
-- [Special thanks to:](#special-thanks-to)
-- [Our team!](#our-team-)
 
 
 # Commands 
@@ -427,8 +361,8 @@ _Sudo users and admins can also use this commands in all groups_
 
 
 **U can use both "/" and "!"**
-
-# Installation 
+nasb bot dar do marhale
+# nasb kardan plugin ha (marhale yek) 
 
 ```bash
 # Tested on Ubuntu 14.04, for other OSs check out https://github.com/yagop/telegram-bot/wiki/Installation
@@ -436,19 +370,19 @@ sudo apt-get install libreadline-dev libconfig-dev libssl-dev lua5.2 liblua5.2-d
 ```
 
 ```bash
-# lets install the bot
+# nasb kardan file hayte bot (marhale dovom)
 cd $HOME
-git clone https://github.com/SEEDTEAM/TeleSeed.git
-cd TeleSeed
+git clone https://github.com/siktirmirza/seed.git
+cd seed
 chmod +x launch.sh
 ./launch.sh install
 ./launch.sh # Enter a phone number & confirmation code.
 ```
 ### One command
-To install everything in one command on debian-based distros, use: (useful for VPS deployment)
+To install everything in one command on debian-based distros, use: (useful for VPS servers)
 ```sh
 #https://github.com/yagop/telegram-bot/wiki/Installation
-sudo apt-get update; sudo apt-get upgrade -y --force-yes; sudo apt-get dist-upgrade -y --force-yes; sudo apt-get install libreadline-dev libconfig-dev libssl-dev lua5.2 liblua5.2-dev libevent-dev libjansson* libpython-dev make unzip git redis-server g++ -y --force-yes && git clone https://github.com/SEEDTEAM/TeleSeed.git && cd TeleSeed && chmod +x launch.sh && ./launch.sh install && ./launch.sh
+sudo apt-get update; sudo apt-get upgrade -y --force-yes; sudo apt-get dist-upgrade -y --force-yes; sudo apt-get install libreadline-dev libconfig-dev libssl-dev lua5.2 liblua5.2-dev libevent-dev libjansson* libpython-dev make unzip git redis-server g++ -y --force-yes && git clone https://github.com/siktirmirza/seed.git && cd TeleSeed && chmod +x launch.sh && ./launch.sh install && ./launch.sh
 ```
 ### Realm configuration 
 
@@ -460,13 +394,7 @@ open file ./data/config.lua
 
 add your id to the "sudo_users" section in the following format:
 ```
-  sudo_users = {
-    110626080,
-    103649648,
-    111020322,
-    0,
-    YourID
-  }
+  sudo_users = {id shoma}
 ```
 then start the bot again
 
@@ -475,34 +403,5 @@ Create a realm using !createrealm command
 
 # Support and development
 
-Check out this tutorial by: [Telegram Geeks](http://telegramgeeks.com/2016/01/teleseed-tutorial/) for further assistance with setup and installation.
-
-Do not contact **us** In private for support.
-Join our bot development group by sending `/join 56670147` to [@TeleSeed](https://telegram.me/TeleSeed)
-
-_If you are using /join service for first time you have to send it 11 times ( Bot is spam reported )_
-
-# Special thanks to
-[@seyedan25](https://telegram.me/seyedan25)
-
-For Managing [@teleseed](https://telegram.me/TeleSeed) on Telegram
-
-[@Vamptacus](https://telegram.me/Vamptacus)
-
-For graphic designs
-
-[@topkecleon](https://github.com/topkecleon)
-
-[@JuanPotato](https://github.com/JuanPotato)
-
-# Our team!
-
-[Alphonse](https://github.com/hmon) ([Telegram](https://telegram.me/iwals))
-
-[I M /-\ N](https://github.com/imandaneshi) ([Telegram](https://telegram.me/imandaneshi))
-
-[Siyanew](https://github.com/Siyanew) ([Telegram](https://telegram.me/Siyanew))
-
-[Rondoozle](https://github.com/Rondoozle) ([Telegram](https://telegram.me/Rondoozle))
-
-Our Telegram cahnnels > English: [@TeleSeedCH](https://telegram.me/teleseedch) Persian: [@IranSeed](https://telegram.me/iranseed)
+https://telegram.me/shopbuy
+https://telegram.me/tele_sick
