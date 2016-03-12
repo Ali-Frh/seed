@@ -20,6 +20,9 @@ end
 if msg.text == "kir" then
 	return "to konet"
 end
+if msg.text == "کیر" then
+	return "تو کونت"
+end
 if msg.text == "mehran" then
 	return "kos nanash :D"
 end
@@ -30,7 +33,16 @@ if msg.text == "telesick" then
 	return "jun ?"
 end
 if msg.text == "bot" then
-	return "hum?"
+	return "من ربات نیستم !"
+end
+if msg.text == "ربات" then
+	return "من ربات نیستم !"
+end
+if msg.text == "بات" then
+	return "من ربات نیستم !"
+end
+if msg.text == "روبات" then
+	return "من ربات نیستم !"
 end
 if msg.text == "Bot" then
 	return "Huuuum?"
@@ -55,8 +67,15 @@ return {
 		"^[Bb]ot$",
 		"^[Bb]ye$",
 		"^?$",
+		"^[kK][iI][rR]$",
+		"^[Mm]ehran$",
+		"^کیر$",
+		"^?$",
 		"^[tT]ele[sS]ick$",
 		"^[Ss]alam$",
+		"^بات$",
+		"^ربات$",
+		"^روبات$",
 		}, 
 	run = run,
     --privileged = true,
